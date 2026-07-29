@@ -1,5 +1,7 @@
+package main.java;
+
 /**
- * CLASE Camarero
+ * CLASE main.java.Camarero
  * -----------------------
  * Representa al empleado que atiende el ticket.
  */
@@ -34,6 +36,6 @@ public class Camarero {
 
     @Override
     public String toString() {
-        return "Camarero: " + nombre + " - Código: " + codigoEmpleado;
+        return "main.java.Camarero: " + nombre + " - Código: " + codigoEmpleado;
     }
 }

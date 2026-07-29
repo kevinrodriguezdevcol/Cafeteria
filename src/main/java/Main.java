@@ -1,5 +1,7 @@
+package main.java;
+
 /**
- * CLASE Main
+ * CLASE main.java.Main
  * --------------------------------------------------------------
  * Pasos que debemos seguir:
  *
@@ -10,7 +12,7 @@
  *  5. Añadir productos al ticket.
  *  6. Mostrar el ticket completo por pantalla.
  *  7. Calcular y mostrar el total.
- *  8. Aplicar al menos un descuento usando la interfaz Descontable.
+ *  8. Aplicar al menos un descuento usando la interfaz main.java.Descontable.
  */
 public class Main {
 
@@ -23,7 +25,7 @@ public class Main {
         Camarero camarero = new Camarero("José", "CLL05");
 
         // 3) Creamos varios PRODUCTOS.
-        //    Aquí la idea es usar Bebida y Comida. Así pues se usa la herencia.
+        //    Aquí la idea es usar main.java.Bebida y main.java.Comida. Así pues se usa la herencia.
         Bebida cafe = new Bebida("Café", 1.80, "Cafés", "mediano");
         Comida bocadillo = new Comida("Bocadillo", 3.50, "Comidas", true);
         Bebida zumo = new Bebida("Zumo", 2.20, "Zumos", "grande");
@@ -39,7 +41,7 @@ public class Main {
         // 6) y 7) Mostramos el ticket completo (incluye ya el total calculado).
         ticket.mostrarTicket();
 
-        // 8) Aplicamos un DESCUENTO usando la interfaz Descontable.
+        // 8) Aplicamos un DESCUENTO usando la interfaz main.java.Descontable.
         //    aplicarDescuento() devuelve el precio final ya rebajado.
         double porcentaje = 10;
         double precioFinalCafe = cafe.aplicarDescuento(porcentaje);

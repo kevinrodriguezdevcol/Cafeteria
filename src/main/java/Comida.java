@@ -1,7 +1,9 @@
+package main.java;
+
 /**
- * CLASE Comida
+ * CLASE main.java.Comida
  * --------------------------------------------------------------
- * Segunda clase HIJA de Producto ("extends Producto"). Añade su atributo
+ * Segunda clase HIJA de main.java.Producto ("extends main.java.Producto"). Añade su atributo
  * propio: "esCaliente".
  */
 public class Comida extends Producto {
@@ -31,6 +33,6 @@ public class Comida extends Producto {
         } else {
             estado = "frío";
         }
-        return super.toString() + ", Estado = " + estado + " (Comida)";
+        return super.toString() + ", Estado = " + estado + " (main.java.Comida)";
     }
 }

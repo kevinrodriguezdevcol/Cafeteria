@@ -1,9 +1,11 @@
+package main.java;
+
 /**
- * CLASE Producto
+ * CLASE main.java.Producto
  * --------------------------------------------------------------
  * Representa un producto genérico de la cafetería y es la CLASE PADRE
- * de la que heredarán "Bebida" y "Comida". Además, IMPLEMENTA la
- * interfaz Descontable (implements), por lo que está obligada a
+ * de la que heredarán "main.java.Bebida" y "main.java.Comida". Además, IMPLEMENTA la
+ * interfaz main.java.Descontable (implements), por lo que está obligada a
  * escribir el metodo.
  */
 public class Producto implements Descontable {
@@ -55,7 +57,7 @@ public class Producto implements Descontable {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Producto: ");
+        sb.append("main.java.Producto: ");
         sb.append("Nombre = ").append(nombre);
         sb.append(", Precio = ").append(String.format("%.2f", precio)).append(" €");
         sb.append(", Categoría = ").append(categoria);
@@ -63,7 +65,7 @@ public class Producto implements Descontable {
     }
 
     /**
-     * IMPLEMENTACIÓN de la interfaz Descontable.
+     * IMPLEMENTACIÓN de la interfaz main.java.Descontable.
      */
     @Override
     public double aplicarDescuento(double porcentaje) {

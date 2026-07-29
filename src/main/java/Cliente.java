@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * CLASE Client
  * --------------------------------------------------------------
@@ -34,6 +36,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente: " + nombre + " - Teléfono: " + telefono;
+        return "main.java.Cliente: " + nombre + " - Teléfono: " + telefono;
     }
 }

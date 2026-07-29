@@ -1,5 +1,7 @@
+package main.java;
+
 /**
- * CLASE Ticket
+ * CLASE main.java.Ticket
  * --------------------
  * Representa una venta.
  */
